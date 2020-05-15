@@ -6,7 +6,7 @@ public class CountChar {
 
         String s = String.valueOf(input1);
         char[] arr = s.toCharArray();
-        String primeNumbers="", duplicate="";
+        String primeNumbers="";
         int sum=0,count=0;
         for(int i=0;i<arr.length;i++){
             if(arr[i]=='2' || arr[i]=='3' || arr[i]=='5' || arr[i]=='7') {
